@@ -31,6 +31,8 @@ executable blockchain-api-short-demo-haskell-exe
                      , text
                      , either
                      , mtl
+                     , lens
+                     , bytestring
   default-language:    Haskell2010
 
 test-suite blockchain-api-short-demo-haskell-test
